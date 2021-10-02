@@ -68,6 +68,7 @@ ul li a{
     margin-bottom: 40px;
     color: #89e610;
     transition: transform .8s ease-in-out;
+    margin-top:30px ;
     
    
 }
@@ -94,7 +95,7 @@ ul li a{
     width: 100%;
 }
 .heading-layout:hover .heading-img .field .ball{
-    transform: translate(-125px,-250px);
+    transform: translate(-125px,-262px);
 }
 .ball{
     width: 130px;
