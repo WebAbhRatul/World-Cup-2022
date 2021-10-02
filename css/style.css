@@ -1,0 +1,94 @@
+/*-----------------
+     goggle font import link 
+     -----------------------------*/
+     @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+/* ----------------
+     common styles  
+    -----------------*/
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #7d60b37a;
+    align-items: center;
+    background-image:linear-gradient( rgb(3, 32, 163),rgba(18, 18, 19, 0.836)), url(../img/bg/fifa-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+    width: 1160px;
+  
+}
+
+/* navbar design  */
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    padding-left: 0;
+    
+}
+ul li{
+    list-style: none;
+    margin-right: 40px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn{
+    padding: 10px;
+    background-color: #ff3355;
+    color: #fff;
+    font-size: 20px;
+}
+/* --------------
+    heading layout
+    ---------------- */
+.heading-layout{
+    display: flex;
+    justify-content: space-between;
+    
+ 
+}
+.heading-layout .heading h2{
+    font-size: 120px;
+    margin-bottom: 20px;
+    color: #89e610;
+   
+}
+.heading{
+    margin-top: -50px;
+}
+.player{
+    position: relative;
+    width: 700px;
+    margin-top: 70px;
+    transform: rotate(-16deg);
+}
+.player img{
+    width: 100%;
+}
+.ball{
+    width: 130px;
+    position: relative;
+    top: -340px;
+}
+.ball img{
+    width: 100%;
+}
+
+
+
+
