@@ -30,6 +30,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
 }
 ul{
     display: flex;
@@ -68,9 +69,7 @@ ul li a{
     margin-bottom: 40px;
     color: #89e610;
     transition: transform .8s ease-in-out;
-    margin-top:40px ;
-    
-   
+    margin-top: 40px; 
 }
 .heading-layout:hover .heading h2{
     transform: scale(1.2);
