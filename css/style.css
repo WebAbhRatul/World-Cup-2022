@@ -49,7 +49,7 @@ ul li a{
 }
 .btn{
     padding: 10px;
-    background-color: #ff3355;
+    background-color: rgba(255, 2, 2, 0.857);
     color: #fff;
     font-size: 20px;
     border-radius: 7px;
@@ -150,6 +150,11 @@ header{
 }
 
 /* highlights section  */
+.highlights-section{
+    background-image:linear-gradient( rgba(32, 136, 248, 0.508),rgb(7, 14, 11)), url(../img/layout/159-1598715_fifa-world-cup-holland-team-wallpapers-hd-quote.jpg);
+    background-size: cover;
+    height: 100vh;
+}
 .highlights-flex{
     display: flex;
     align-items: center;
@@ -162,9 +167,12 @@ header{
     
 }
 
+
+
 .highlights-flex .highlights-img img{
     width: 100%;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: .5%;
     
     
     
@@ -173,8 +181,12 @@ header{
 .highlights-info h2{
     font-size: 70px;
     line-height: 30px;
+    font-weight: 700;
+    color: #fff;
 }
+
 .highlights-info p{
     font-size: 22px;
+    color: #fff;
 }
 
