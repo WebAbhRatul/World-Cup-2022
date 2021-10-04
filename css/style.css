@@ -1,31 +1,30 @@
-/*-----------------
+/*8888888888888888888888888888888
      goggle font import link 
-     -----------------------------*/
+88888888888888888888888888888888*/
      @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
-/* ----------------
-     common styles  
-    -----------------*/
+
+/*8888888888888888888888888888888888
+88888888  common styles  88888888888  
+888888888888888888888888888888888888*/
 body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
 }
-header{
-    display: flex;
-    flex-direction: column;
-    background-color: #7d60b37a;
-    align-items: center;
-    background-image:linear-gradient( rgb(3, 32, 163),rgba(18, 18, 19, 0.836)), url(../img/bg/fifa-bg.jpg);
-    background-size: cover;
-    height: 100vh;
-}
+
 .container{
     width: 1160px;
   
 }
+a{
+    text-decoration: none;
+    color: black;
+}
 
-/* navbar design  */
+/*8888888888888888888888888888888888
+8888888888 navbar design 88888888888  
+88888888888888888888888888888888888*/
 .navigation{
     display: flex;
     justify-content: space-between;
@@ -53,17 +52,31 @@ ul li a{
     background-color: #ff3355;
     color: #fff;
     font-size: 20px;
+    border-radius: 7px;
 }
-/* --------------
-    heading layout
-    ---------------- */
+.btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+/*8888888888888888888888888888888888888888
+88888888888 heading layout 888888888888888
+8888888888888888888888888888888888888888888*/
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: #7d60b37a;
+    align-items: center;
+    background-image:linear-gradient( rgb(3, 32, 163),rgba(18, 18, 19, 0.836)), url(../img/bg/fifa-bg.jpg);
+    background-size: cover;
+    height: 100vh;
+    padding-bottom: 30px;
+}
+
 .heading-layout{
     display: flex;
     justify-content: space-between;
-    
-    
- 
 }
+
 .heading-layout .heading h2{
     font-size: 110px;
     margin-bottom: 40px;
@@ -71,6 +84,7 @@ ul li a{
     transition: transform .8s ease-in-out;
     margin-top: 40px; 
 }
+
 .heading-layout:hover .heading h2{
     transform: scale(1.2);
     
@@ -90,9 +104,11 @@ ul li a{
     transform: rotate(-20deg);
     transition: transform .3s ease-out;
 }
+
 .player img{
     width: 100%;
 }
+
 .heading-layout:hover .heading-img .field .ball{
     transform: translate(-125px,-262px);
 }
@@ -106,6 +122,59 @@ ul li a{
     width: 100%;
 }
 
+/*888888888888888888888888888888888888888888888
+888888888888 main layout design 888888888888888  
+8888888888888888888888888888888888888888888888*/
 
+/* footballer section  */
+.football-player,.highlights-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.footballer-grid{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 3%;
+    grid-row-gap: 1.8%;
+}
 
+.footballer-grid .footballer-card .footballer img{
+    width: 100%;
+}
+.footballer-card{
+    padding: 20px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+
+/* highlights section  */
+.highlights-flex{
+    display: flex;
+    align-items: center;
+    
+}
+.highlights-info,
+.highlights-img{
+    width: 50%;
+    margin: 5%;
+    
+}
+
+.highlights-flex .highlights-img img{
+    width: 100%;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    
+    
+    
+}
+
+.highlights-info h2{
+    font-size: 70px;
+    line-height: 30px;
+}
+.highlights-info p{
+    font-size: 22px;
+}
 
