@@ -16,6 +16,7 @@ body{
 .container{
     width: 1160px;
  
+ 
   
 }
 a{
@@ -269,4 +270,61 @@ header{
     margin-top: -20px;
 }
 
+/* bottom section design  */
+.bottom-section{
+    background-image: linear-gradient(#f05053,#f1fcd99a);
+    display: flex;
+    justify-content: center;
+}
+.bottom-bg{
+    display: flex;
+    justify-content: center;
+   align-content: center;
+}
+
+.bottom-bg img{
+    width: 30%;
+    padding: 90px;
+}
+
+/* footer design  */
+footer{
+    display: flex;
+    justify-content: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.icon-flex{
+    font-size: 30px;
+}
+.icon-flex .fab{
+    background-color: rgba(189, 185, 185, 0.487);
+    padding: 10px;
+    border-radius: 35px;
+    margin: 5px;
+}
+
+.icon-flex .fab.fa-facebook:hover{
+    color: #4267B2;
+}
+.icon-flex .fab.fa-instagram:hover{
+    color: #8a3ab9;
+}
+.icon-flex .fab.fa-linkedin:hover{
+    color: #0077b5;
+}
+.icon-flex .fab.fa-twitter:hover{
+    color: #00acee;
+}
+.icon-flex .fab.fa-google:hover{
+    color: #DB4437;
+}
+.footer-text{
+    text-align: center;
+    font-weight: 700;
+    font-size: small;
+}
 
