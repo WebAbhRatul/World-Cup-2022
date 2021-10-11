@@ -15,6 +15,7 @@ body{
 
 .container{
     width: 1160px;
+ 
   
 }
 a{
@@ -46,6 +47,11 @@ ul li a{
     color: white;
     font-size: 20px;
     font-weight: 400;
+    transition: transform .7s ease-out;
+    display: block;
+}
+ul li a:hover{
+    transform: scale(.9);
 }
 .btn{
     padding: 10px;
@@ -194,4 +200,73 @@ header{
     color: #fff;
     
 }
+
+/* signup design  */
+.signup-section{
+    display: flex;
+    justify-content: center;
+    background-image:linear-gradient( rgb(173, 174, 175),rgba(18, 18, 19, 0.836)), url(../img/bg/stadium.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat; 
+}
+.signup-section-logo{
+    background-image: url(../img/logo/Lovepik_com-400303767-colorful-football.png);
+    background-size: 70%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.form-box{
+    width: 50%;
+    
+}
+
+
+
+
+.form-box input{
+    width: 100%;
+    border: none;
+    background-color: #0527e891;
+    background-image: linear-gradient(315deg, #05e8ba 0%, #087ee1 74%);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 22px;
+    box-sizing: border-box;
+    box-shadow: 0 0 290px .02px;
+    margin-bottom: 20px;
+    
+}
+.form-box input:hover::placeholder{
+    font-size: 20px;
+}
+::placeholder {
+    color:#fff;
+    opacity: 1;
+    transition: font-size .3s ease-in;
+  }
+  
+.form-box input:focus{
+    
+    outline: none;
+    color: #fff;
+}
+.form-box input:focus::placeholder{
+    
+    visibility: hidden;
+}
+.sign-btn{
+    height: 100px;
+    width: 100px;
+}
+.frm-btn{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -20px;
+}
+
 
