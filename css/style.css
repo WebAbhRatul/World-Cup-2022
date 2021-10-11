@@ -272,7 +272,7 @@ header{
 
 /* bottom section design  */
 .bottom-section{
-    background-image: linear-gradient(#f05053,#f1fcd99a);
+    background-image: linear-gradient(#f05053,#f1fcd92a);
     display: flex;
     justify-content: center;
 }
@@ -283,8 +283,9 @@ header{
 }
 
 .bottom-bg img{
-    width: 30%;
-    padding: 90px;
+    width: 10%;
+    padding: 90px 0 20px 0;
+
 }
 
 /* footer design  */
@@ -295,10 +296,10 @@ footer{
 .icons{
     display: flex;
     justify-content: center;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .icon-flex{
-    font-size: 30px;
+    font-size: 10px;
 }
 .icon-flex .fab{
     background-color: rgba(189, 185, 185, 0.487);
