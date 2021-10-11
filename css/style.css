@@ -212,9 +212,9 @@ header{
 }
 .signup-section-logo{
     background-image: url(../img/logo/Lovepik_com-400303767-colorful-football.png);
-    background-size: 70%;
+    background-size: 90%;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom center;
     display: flex;
     justify-content: flex-start;
     align-items: center;
